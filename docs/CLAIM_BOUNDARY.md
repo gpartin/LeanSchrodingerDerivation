@@ -8,10 +8,11 @@ offset. SCHRODINGER-005 proves the exact rationalized kinetic identity.
 SCHRODINGER-006 separates the quadratic kinetic term from an explicit
 quartic remainder and proves a positive-mass bound on that remainder.
 SCHRODINGER-007 identifies the free Fourier-space symbol while retaining the
-exact residual. Together they are not a claim that the public repository
-already contains the full Schrodinger derivation, the Born rule, a complete
-quantum theory, a complete electron construction, or a physical measurement
-model.
+exact residual. SCHRODINGER-008 packages the scoped free-limit certificate
+with the mass-shell relation still explicit. Together they are not a claim
+that the public repository already contains the full Schrodinger derivation,
+the Born rule, a complete quantum theory, a complete electron construction,
+or a physical measurement model.
 
 Stage 2 does not independently prove the mass-shell hypothesis from c40
 dynamics; it makes the prior result an explicit input and verifies the mass
@@ -23,6 +24,8 @@ relativistic correction visible. Stage 6 proves the correction bound but does
 not authorize dropping the correction at arbitrary momentum. Stage 7 is a
 Fourier-symbol result and does not establish a general position-space wave
 equation or a measurement interpretation.
+Stage 8 is an integrated conditional certificate; it does not independently
+derive the mass-shell input or construct a spinor field.
 
 The promoted definitions file contains only the declarations required by the
-seven public stages, and no later-stage proof modules are included.
+eight public stages, and no later-stage proof modules are included.

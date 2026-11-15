@@ -6,5 +6,6 @@ import SchrodingerFormal.Core.Schrodinger004RestPhaseRemoval
 import SchrodingerFormal.Core.Schrodinger005RationalizedKineticEnergy
 import SchrodingerFormal.Core.Schrodinger006SchrodingerRemainder
 import SchrodingerFormal.Core.Schrodinger007EnvelopeSymbol
+import SchrodingerFormal.Core.Schrodinger008StrictCertificate
 
-/-! Public package root for SCHRODINGER-001 through SCHRODINGER-007. -/
+/-! Public package root for SCHRODINGER-001 through SCHRODINGER-008. -/
