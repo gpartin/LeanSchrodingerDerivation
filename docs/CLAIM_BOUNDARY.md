@@ -15,7 +15,8 @@ proves the exact shifted-energy split, and SCHRODINGER-011 proves the exact
 local relativistic split. Together they do not claim that the public
 repository already contains the full Schrodinger derivation, the Born rule, a
 complete quantum theory, a complete electron construction, or a physical
-measurement model.
+measurement model. SCHRODINGER-012 assembles the full potential-bearing
+Fourier-energy identity, but the correction remains explicit.
 
 Stage 2 does not independently prove the mass-shell hypothesis from c40
 dynamics; it makes the prior result an explicit input and verifies the mass
@@ -33,7 +34,9 @@ Stage 9 derives only the potential identity; it does not yet prove the full
 potential-bearing energy expansion. Stage 10 proves only the exact shifted
 energy split; it does not yet assemble the full potential-bearing symbol.
 Stage 11 remains an exact relativistic identity and does not yet replace the
-local kinetic term with the quadratic approximation.
+local kinetic term with the quadratic approximation. Stage 12 does not claim
+that its explicit correction vanishes or that a general position-space wave
+equation follows automatically.
 
 The promoted definitions file contains only the declarations required by the
-eleven public stages, and no later-stage proof modules are included.
+twelve public stages, and no later-stage proof modules are included.
