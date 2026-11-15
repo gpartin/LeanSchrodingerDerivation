@@ -4,16 +4,18 @@ SCHRODINGER-001 is a formal root-action/mass handoff. SCHRODINGER-002 is a
 conditional rewrite of a named free-Dirac mass-shell hypothesis.
 SCHRODINGER-003 selects the nonnegative square-root branch under explicit
 mass-shell assumptions. SCHRODINGER-004 exactly removes the rest-energy
-offset. Together they are not a claim that the public repository already
-contains the full Schrodinger derivation, the Born rule, a complete quantum
-theory, a complete electron construction, or a physical measurement model.
+offset. SCHRODINGER-005 proves the exact rationalized kinetic identity.
+Together they are not a claim that the public repository already contains the
+full Schrodinger derivation, the Born rule, a complete quantum theory, a
+complete electron construction, or a physical measurement model.
 
 Stage 2 does not independently prove the mass-shell hypothesis from c40
 dynamics; it makes the prior result an explicit input and verifies the mass
 term handoff in Lean. Stage 3 is an algebraic branch-selection result; it does
 not by itself establish the physical state assumptions for every c40 solution.
 Stage 4 is exact algebraic re-centering and does not yet establish the
-low-momentum approximation.
+low-momentum approximation. Stage 5 is also exact and keeps the later
+relativistic correction visible.
 
 The promoted definitions file contains only the declarations required by the
-four public stages, and no later-stage proof modules are included.
+five public stages, and no later-stage proof modules are included.

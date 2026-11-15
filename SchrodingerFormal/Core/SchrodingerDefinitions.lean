@@ -1,5 +1,6 @@
 import Mathlib.Data.Real.Basic
 import Mathlib.Analysis.Real.Sqrt
+import Mathlib.Tactic.FieldSimp
 import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.NormNum
 import Mathlib.Tactic.Ring
@@ -8,7 +9,7 @@ namespace SchrodingerFormal
 
 noncomputable section
 
-/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-004. -/
+/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-005. -/
 
 def c40Chi0 : ℝ := 19
 
@@ -43,6 +44,11 @@ def SchrodingerStage04 : Prop :=
   ∀ (mass momentum : ℝ),
     restPhaseRemovedEnergy mass momentum + mass =
       relativisticEnergy mass momentum
+
+def SchrodingerStage05 : Prop :=
+  ∀ (mass momentum : ℝ), 0 < mass →
+    restPhaseRemovedEnergy mass momentum =
+      momentum ^ 2 / (relativisticEnergy mass momentum + mass)
 
 end
 end SchrodingerFormal
