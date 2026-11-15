@@ -36,7 +36,12 @@ energy split; it does not yet assemble the full potential-bearing symbol.
 Stage 11 remains an exact relativistic identity and does not yet replace the
 local kinetic term with the quadratic approximation. Stage 12 does not claim
 that its explicit correction vanishes or that a general position-space wave
-equation follows automatically.
+equation follows automatically. Stage 13 adds a rigorously differentiated
+plane-wave mode and proves the textbook operator identity for that mode in
+natural units, with the exact correction still retained by the Stage 12
+certificate. It does not claim the arbitrary-wavefunction functional-analytic
+extension, Born's rule, or a complete quantum theory.
 
-The promoted definitions file contains only the declarations required by the
-twelve public stages, and no later-stage proof modules are included.
+The promoted definitions file contains the declarations required by the
+thirteen public stages. The public closeout is still a scoped formal
+derivation, not an experimental validation or a complete quantum theory.

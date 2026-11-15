@@ -42,6 +42,10 @@ def fullSchrodingerRemainder
       (2 * referenceMass * (referenceMass + potential)) +
     schrodingerRemainder (referenceMass + potential) momentum
 
+def potentialSchrodingerFourierSymbol
+    (referenceMass potential momentum frequency : ℝ) : Prop :=
+  frequency = potentialSchrodingerEnergy referenceMass potential momentum
+
 def freeSchrodingerFourierSymbol (mass momentum frequency : ℝ) : Prop :=
   frequency = schrodingerEnergy mass momentum
 
@@ -114,6 +118,12 @@ def SchrodingerStage12 : Prop :=
       relativisticEnergy (referenceMass + potential) momentum - referenceMass =
         potentialSchrodingerEnergy referenceMass potential momentum +
           fullSchrodingerRemainder referenceMass potential momentum
+
+def SchrodingerStage13 : Prop :=
+  ∀ (referenceMass potential momentum : ℝ),
+    0 < referenceMass → 0 < referenceMass + potential →
+      potentialSchrodingerFourierSymbol referenceMass potential momentum
+        (potentialSchrodingerEnergy referenceMass potential momentum)
 
 end
 end SchrodingerFormal

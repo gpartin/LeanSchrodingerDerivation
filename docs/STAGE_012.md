@@ -15,4 +15,6 @@ The certificate proves:
 This is the complete potential-bearing Fourier-energy identity in the staged
 program, with the relativistic correction still visible. It is not a claim
 that the correction vanishes or that a general position-space wave equation
-has been established.
+has been established. Stage 13 now packages this identity with the derived
+chi-potential certificate and supplies the final plane-wave operator
+translation.

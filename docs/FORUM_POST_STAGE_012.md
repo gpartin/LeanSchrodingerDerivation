@@ -19,12 +19,12 @@ In plain terms, this is the equation we set out to extract. The left side is the
 
 This result is exact under the stated positive-mass conditions. It does not claim that the correction vanishes, that every momentum is nonrelativistic, or that a general position-space wave equation has been established.
 
-Stage 12 is the equation-emergence stage. One final research stage remains: Stage 13 assembles the chi-potential certificate that packages this equation, its leading Fourier symbol, and the derived potential into one closing Lean certificate. The project is not being closed out until that final certificate passes.
+Stage 12 is the equation-emergence stage. Stage 13 now closes the derivation by assembling the chi-potential certificate and translating the leading Fourier symbol into the recognizable operator form for a single plane-wave mode.
 
 Repository:
 https://github.com/gpartin/LeanSchrodingerDerivation
 
-The public repository now contains the verified Stage 1 through Stage 12 Lean modules, pinned dependencies, verification scripts, and claim-boundary documentation.
+The public repository now contains the verified Stage 1 through Stage 13 Lean modules, pinned dependencies, verification scripts, and claim-boundary documentation.
 
 To verify Stage 12:
 

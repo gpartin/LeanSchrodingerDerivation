@@ -11,5 +11,6 @@ import SchrodingerFormal.Core.Schrodinger009ChiPotential
 import SchrodingerFormal.Core.Schrodinger010PotentialEnergyShift
 import SchrodingerFormal.Core.Schrodinger011LocalEnergySplit
 import SchrodingerFormal.Core.Schrodinger012FullSchrodingerRemainder
+import SchrodingerFormal.Core.Schrodinger013FullStrictCertificate
 
-/-! Public package root for SCHRODINGER-001 through SCHRODINGER-012. -/
+/-! Public package root for SCHRODINGER-001 through SCHRODINGER-013. -/

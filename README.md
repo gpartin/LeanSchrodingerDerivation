@@ -26,6 +26,9 @@ It also contains `SCHRODINGER-011`, which proves the exact local relativistic
 energy split into potential plus rationalized kinetic energy.
 It also contains `SCHRODINGER-012`, which assembles the full potential-bearing
 energy identity with its explicit correction.
+It also contains `SCHRODINGER-013`, which packages the chi-derived potential
+certificate and proves the recognizable Schrodinger operator equation for a
+single Fourier plane-wave mode in natural units.
 Stage 1 proves that the native rest mass defined by the absolute value of chi
 has square equal to the chi-squared onsite mass term, and that the chosen c40
 vacuum reference has native rest mass 19. Stage 2 rewrites the named
@@ -48,12 +51,15 @@ the kinetic energy associated with the local mass.
 Stage 11 proves the exact local relativistic split into potential plus the
 rationalized kinetic term.
 Stage 12 assembles the potential-bearing Schrodinger energy plus the explicit
-correction term.
+correction term. Stage 13 packages that result with the chi-potential
+certificate and proves the time-derivative and second-space-derivative mode
+identities that translate the leading Fourier symbol into the textbook
+operator form.
 
 Stage 2 is a conditional handoff: it does not independently prove the
-mass-shell relation from c40 dynamics. The remaining final certificate stays
-in the local research staging repository until promoted one meaningful
-handoff at a time.
+mass-shell relation from c40 dynamics. Stage 13 is a mode-level operator
+translation; it does not claim a fully formalized arbitrary-wavefunction
+position-space PDE or a complete quantum theory.
 
 ## Verify
 
@@ -61,8 +67,8 @@ From a clean checkout with Lean 4.33.1 and network access for the pinned
 Mathlib dependency:
 
 ```powershell
-lake build SchrodingerFormal.Core.Schrodinger012FullSchrodingerRemainder
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage12.ps1
+lake build SchrodingerFormal.Core.Schrodinger013FullStrictCertificate
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage13.ps1
 ```
 
 The promoted proof contains no `sorry`, `admit`, or undeclared `axiom`.
