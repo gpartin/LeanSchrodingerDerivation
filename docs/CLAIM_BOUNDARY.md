@@ -9,8 +9,10 @@ SCHRODINGER-006 separates the quadratic kinetic term from an explicit
 quartic remainder and proves a positive-mass bound on that remainder.
 SCHRODINGER-007 identifies the free Fourier-space symbol while retaining the
 exact residual. SCHRODINGER-008 packages the scoped free-limit certificate
-with the mass-shell relation still explicit. Together they are not a claim
-that the public repository already contains the full Schrodinger derivation,
+with the mass-shell relation still explicit. SCHRODINGER-009 derives the
+potential as a local-versus-reference native-mass difference. Together they
+do not claim that the public repository already contains the full Schrodinger
+derivation,
 the Born rule, a complete quantum theory, a complete electron construction,
 or a physical measurement model.
 
@@ -26,6 +28,8 @@ Fourier-symbol result and does not establish a general position-space wave
 equation or a measurement interpretation.
 Stage 8 is an integrated conditional certificate; it does not independently
 derive the mass-shell input or construct a spinor field.
+Stage 9 derives only the potential identity; it does not yet prove the full
+potential-bearing energy expansion.
 
 The promoted definitions file contains only the declarations required by the
-eight public stages, and no later-stage proof modules are included.
+nine public stages, and no later-stage proof modules are included.

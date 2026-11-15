@@ -9,7 +9,7 @@ namespace SchrodingerFormal
 
 noncomputable section
 
-/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-007. -/
+/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-009. -/
 
 def c40Chi0 : ℝ := 19
 
@@ -35,6 +35,9 @@ def schrodingerRemainder (mass momentum : ℝ) : ℝ :=
 
 def freeSchrodingerFourierSymbol (mass momentum frequency : ℝ) : Prop :=
   frequency = schrodingerEnergy mass momentum
+
+def c40ChiDerivedPotential (chi referenceChi : ℝ) : ℝ :=
+  c40NativeRestMass chi - c40NativeRestMass referenceChi
 
 def SchrodingerStage01 : Prop :=
   ∀ chi : ℝ, c40NativeRestMass chi ^ 2 = c40OnsiteMassSquared chi
@@ -70,6 +73,11 @@ def SchrodingerStage07 : Prop :=
   ∀ (mass momentum : ℝ), 0 < mass →
     freeSchrodingerFourierSymbol mass momentum
       (schrodingerEnergy mass momentum)
+
+def SchrodingerStage09 : Prop :=
+  ∀ (chi referenceChi : ℝ),
+    c40NativeRestMass chi =
+      c40NativeRestMass referenceChi + c40ChiDerivedPotential chi referenceChi
 
 end
 end SchrodingerFormal

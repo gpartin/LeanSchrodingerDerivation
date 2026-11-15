@@ -18,6 +18,8 @@ It also contains `SCHRODINGER-007`, which identifies the free Schrodinger
 Fourier symbol while retaining the exact relativistic residual.
 It also contains `SCHRODINGER-008`, an integrated certificate for the scoped
 free nonrelativistic limit.
+It also contains `SCHRODINGER-009`, which defines the chi-derived potential
+from a local-versus-reference native-mass difference.
 Stage 1 proves that the native rest mass defined by the absolute value of chi
 has square equal to the chi-squared onsite mass term, and that the chosen c40
 vacuum reference has native rest mass 19. Stage 2 rewrites the named
@@ -33,11 +35,13 @@ Stage 7 identifies the free Fourier-space symbol; it does not claim a general
 position-space wave equation.
 Stage 8 packages the preceding facts into one certificate while keeping the
 mass-shell relation as an explicit input.
+Stage 9 derives the potential as an exact difference of native mass readouts,
+not as an arbitrary external term.
 
 Stage 2 is a conditional handoff: it does not independently prove the
-mass-shell relation from c40 dynamics. The later chi-potential stages remain
-in the local research staging repository until promoted one meaningful
-handoff at a time.
+mass-shell relation from c40 dynamics. The later local-energy and full
+potential stages remain in the local research staging repository until
+promoted one meaningful handoff at a time.
 
 ## Verify
 
@@ -45,8 +49,8 @@ From a clean checkout with Lean 4.33.1 and network access for the pinned
 Mathlib dependency:
 
 ```powershell
-lake build SchrodingerFormal.Core.Schrodinger008StrictCertificate
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage8.ps1
+lake build SchrodingerFormal.Core.Schrodinger009ChiPotential
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage9.ps1
 ```
 
 The promoted proof contains no `sorry`, `admit`, or undeclared `axiom`.
