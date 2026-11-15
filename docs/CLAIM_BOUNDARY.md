@@ -10,10 +10,12 @@ quartic remainder and proves a positive-mass bound on that remainder.
 SCHRODINGER-007 identifies the free Fourier-space symbol while retaining the
 exact residual. SCHRODINGER-008 packages the scoped free-limit certificate
 with the mass-shell relation still explicit. SCHRODINGER-009 derives the
-potential as a local-versus-reference native-mass difference. Together they
-do not claim that the public repository already contains the full Schrodinger
-derivation, the Born rule, a complete quantum theory, a complete electron
-construction, or a physical measurement model.
+potential as a local-versus-reference native-mass difference. SCHRODINGER-010
+proves the exact shifted-energy split, and SCHRODINGER-011 proves the exact
+local relativistic split. Together they do not claim that the public
+repository already contains the full Schrodinger derivation, the Born rule, a
+complete quantum theory, a complete electron construction, or a physical
+measurement model.
 
 Stage 2 does not independently prove the mass-shell hypothesis from c40
 dynamics; it makes the prior result an explicit input and verifies the mass
@@ -30,6 +32,8 @@ derive the mass-shell input or construct a spinor field.
 Stage 9 derives only the potential identity; it does not yet prove the full
 potential-bearing energy expansion. Stage 10 proves only the exact shifted
 energy split; it does not yet assemble the full potential-bearing symbol.
+Stage 11 remains an exact relativistic identity and does not yet replace the
+local kinetic term with the quadratic approximation.
 
 The promoted definitions file contains only the declarations required by the
-ten public stages, and no later-stage proof modules are included.
+eleven public stages, and no later-stage proof modules are included.

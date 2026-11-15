@@ -22,6 +22,8 @@ It also contains `SCHRODINGER-009`, which defines the chi-derived potential
 from a local-versus-reference native-mass difference.
 It also contains `SCHRODINGER-010`, which carries that potential into the
 local shifted-energy split.
+It also contains `SCHRODINGER-011`, which proves the exact local relativistic
+energy split into potential plus rationalized kinetic energy.
 Stage 1 proves that the native rest mass defined by the absolute value of chi
 has square equal to the chi-squared onsite mass term, and that the chosen c40
 vacuum reference has native rest mass 19. Stage 2 rewrites the named
@@ -41,6 +43,8 @@ Stage 9 derives the potential as an exact difference of native mass readouts,
 not as an arbitrary external term.
 Stage 10 proves that the shifted local energy equals the chi potential plus
 the kinetic energy associated with the local mass.
+Stage 11 proves the exact local relativistic split into potential plus the
+rationalized kinetic term.
 
 Stage 2 is a conditional handoff: it does not independently prove the
 mass-shell relation from c40 dynamics. The later full potential-energy stages
@@ -53,8 +57,8 @@ From a clean checkout with Lean 4.33.1 and network access for the pinned
 Mathlib dependency:
 
 ```powershell
-lake build SchrodingerFormal.Core.Schrodinger010PotentialEnergyShift
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage10.ps1
+lake build SchrodingerFormal.Core.Schrodinger011LocalEnergySplit
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage11.ps1
 ```
 
 The promoted proof contains no `sorry`, `admit`, or undeclared `axiom`.

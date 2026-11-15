@@ -9,5 +9,6 @@ import SchrodingerFormal.Core.Schrodinger007EnvelopeSymbol
 import SchrodingerFormal.Core.Schrodinger008StrictCertificate
 import SchrodingerFormal.Core.Schrodinger009ChiPotential
 import SchrodingerFormal.Core.Schrodinger010PotentialEnergyShift
+import SchrodingerFormal.Core.Schrodinger011LocalEnergySplit
 
-/-! Public package root for SCHRODINGER-001 through SCHRODINGER-010. -/
+/-! Public package root for SCHRODINGER-001 through SCHRODINGER-011. -/
