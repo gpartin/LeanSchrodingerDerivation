@@ -4,5 +4,6 @@ import SchrodingerFormal.Core.Schrodinger002DiracMassShellHandoff
 import SchrodingerFormal.Core.Schrodinger003PositiveEnergy
 import SchrodingerFormal.Core.Schrodinger004RestPhaseRemoval
 import SchrodingerFormal.Core.Schrodinger005RationalizedKineticEnergy
+import SchrodingerFormal.Core.Schrodinger006SchrodingerRemainder
 
-/-! Public package root for SCHRODINGER-001 through SCHRODINGER-005. -/
+/-! Public package root for SCHRODINGER-001 through SCHRODINGER-006. -/

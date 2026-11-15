@@ -9,7 +9,7 @@ namespace SchrodingerFormal
 
 noncomputable section
 
-/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-005. -/
+/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-006. -/
 
 def c40Chi0 : ℝ := 19
 
@@ -25,6 +25,13 @@ def relativisticEnergy (mass momentum : ℝ) : ℝ :=
 
 def restPhaseRemovedEnergy (mass momentum : ℝ) : ℝ :=
   relativisticEnergy mass momentum - mass
+
+def schrodingerEnergy (mass momentum : ℝ) : ℝ :=
+  momentum ^ 2 / (2 * mass)
+
+def schrodingerRemainder (mass momentum : ℝ) : ℝ :=
+  -(momentum ^ 4) /
+    (2 * mass * (relativisticEnergy mass momentum + mass) ^ 2)
 
 def SchrodingerStage01 : Prop :=
   ∀ chi : ℝ, c40NativeRestMass chi ^ 2 = c40OnsiteMassSquared chi
@@ -49,6 +56,12 @@ def SchrodingerStage05 : Prop :=
   ∀ (mass momentum : ℝ), 0 < mass →
     restPhaseRemovedEnergy mass momentum =
       momentum ^ 2 / (relativisticEnergy mass momentum + mass)
+
+def SchrodingerStage06 : Prop :=
+  ∀ (mass momentum : ℝ), 0 < mass →
+    restPhaseRemovedEnergy mass momentum =
+      schrodingerEnergy mass momentum + schrodingerRemainder mass momentum ∧
+    |schrodingerRemainder mass momentum| ≤ momentum ^ 4 / (8 * mass ^ 3)
 
 end
 end SchrodingerFormal
