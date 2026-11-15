@@ -20,6 +20,8 @@ It also contains `SCHRODINGER-008`, an integrated certificate for the scoped
 free nonrelativistic limit.
 It also contains `SCHRODINGER-009`, which defines the chi-derived potential
 from a local-versus-reference native-mass difference.
+It also contains `SCHRODINGER-010`, which carries that potential into the
+local shifted-energy split.
 Stage 1 proves that the native rest mass defined by the absolute value of chi
 has square equal to the chi-squared onsite mass term, and that the chosen c40
 vacuum reference has native rest mass 19. Stage 2 rewrites the named
@@ -37,11 +39,13 @@ Stage 8 packages the preceding facts into one certificate while keeping the
 mass-shell relation as an explicit input.
 Stage 9 derives the potential as an exact difference of native mass readouts,
 not as an arbitrary external term.
+Stage 10 proves that the shifted local energy equals the chi potential plus
+the kinetic energy associated with the local mass.
 
 Stage 2 is a conditional handoff: it does not independently prove the
-mass-shell relation from c40 dynamics. The later local-energy and full
-potential stages remain in the local research staging repository until
-promoted one meaningful handoff at a time.
+mass-shell relation from c40 dynamics. The later full potential-energy stages
+remain in the local research staging repository until promoted one meaningful
+handoff at a time.
 
 ## Verify
 
@@ -49,8 +53,8 @@ From a clean checkout with Lean 4.33.1 and network access for the pinned
 Mathlib dependency:
 
 ```powershell
-lake build SchrodingerFormal.Core.Schrodinger009ChiPotential
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage9.ps1
+lake build SchrodingerFormal.Core.Schrodinger010PotentialEnergyShift
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage10.ps1
 ```
 
 The promoted proof contains no `sorry`, `admit`, or undeclared `axiom`.
