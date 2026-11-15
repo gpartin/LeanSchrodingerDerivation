@@ -2,12 +2,13 @@ import Mathlib.Data.Real.Basic
 import Mathlib.Analysis.Real.Sqrt
 import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.Ring
 
 namespace SchrodingerFormal
 
 noncomputable section
 
-/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-003. -/
+/-! Shared definitions required by SCHRODINGER-001 through SCHRODINGER-004. -/
 
 def c40Chi0 : ℝ := 19
 
@@ -20,6 +21,9 @@ def c40DiracMassShell (chi energy momentum : ℝ) : Prop :=
 
 def relativisticEnergy (mass momentum : ℝ) : ℝ :=
   Real.sqrt (mass ^ 2 + momentum ^ 2)
+
+def restPhaseRemovedEnergy (mass momentum : ℝ) : ℝ :=
+  relativisticEnergy mass momentum - mass
 
 def SchrodingerStage01 : Prop :=
   ∀ chi : ℝ, c40NativeRestMass chi ^ 2 = c40OnsiteMassSquared chi
@@ -34,6 +38,11 @@ def SchrodingerStage03 : Prop :=
     0 ≤ mass → 0 ≤ energy →
       energy ^ 2 = mass ^ 2 + momentum ^ 2 →
         energy = relativisticEnergy mass momentum
+
+def SchrodingerStage04 : Prop :=
+  ∀ (mass momentum : ℝ),
+    restPhaseRemovedEnergy mass momentum + mass =
+      relativisticEnergy mass momentum
 
 end
 end SchrodingerFormal
