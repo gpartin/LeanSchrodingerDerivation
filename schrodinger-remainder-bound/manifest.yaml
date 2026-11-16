@@ -15,3 +15,6 @@ bibEntries:
       doi = {10.5281/zenodo.24270168},
       url = {https://github.com/gpartin/LeanSchrodingerDerivation}
     }
+issue:
+  repositoryId: 1320232165
+  number: 227
