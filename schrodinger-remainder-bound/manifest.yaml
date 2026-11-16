@@ -1,0 +1,17 @@
+specVersion: "1"
+id: lax-523824
+leanVersion: "v4.33.0"
+mathlibVersion: "db584cd6d46c92f209a44c0f1c829460d327499d"
+title: "Exact Schrödinger kinetic split and quartic remainder bound"
+authors:
+  - name: "G. D. Partin"
+    github: "gpartin"
+bibEntries:
+  - |
+    @software{partin2026schrodinger,
+      author = {Partin, G. D.},
+      title = {LeanSchrodingerDerivation},
+      year = {2026},
+      doi = {10.5281/zenodo.24270168},
+      url = {https://github.com/gpartin/LeanSchrodingerDerivation}
+    }
