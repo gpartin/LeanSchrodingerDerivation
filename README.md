@@ -72,3 +72,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage13.ps1
 ```
 
 The promoted proof contains no `sorry`, `admit`, or undeclared `axiom`.
+
+## Publication and submission status
+
+The evidence-based external-submission ledger is maintained in
+[`docs/SUBMISSION_TRACKER.md`](docs/SUBMISSION_TRACKER.md). The tracker keeps
+source publication, immutable archiving, verification, curated listings, and
+community publicity separate and preserves incomplete or failed states.
