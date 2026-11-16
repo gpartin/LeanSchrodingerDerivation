@@ -28,7 +28,7 @@ quantum theory.
 | [Best-of-Lean4](https://github.com/34j/best-of-lean4/pull/300) | Project listing | Pull request submitted | PR #300 adds a narrowly scoped listing with explicit exclusions and the release DOI | Respond to listing review and CI | On review activity |
 | [Formalization Corpus](https://github.com/dzackgarza/formalization-corpus/issues/12) | Repository indexing | Indexing request submitted | Issue #12 requests corpus indexing for the immutable release | Respond to curator questions and record any indexed identifier | On review activity |
 | Project Intentions | Community coordination | Manual-only; not submitted | No Schrödinger issue was found | G. D. Partin must personally write any community post; do not submit AI-written Lean-community comments | Manual |
-| Constraint Systems Institute | Project listing | Not submitted | No Schrödinger listing request or response was found | Send a bounded listing request after the immutable release and DOI exist | After DOI |
+| [Constraint Systems Institute](https://constraintsystemsinstitute.org/index.html) | Project listing | Submitted; awaiting response | A bounded listing request was emailed to `amos@constraintsystemsinstitute.org` on 2026-11-16 with the repository, immutable release, DOI, CI evidence, claim boundary, and AI-assistance disclosure | Await a response and answer any scope or reproducibility questions | 2026-11-23 |
 | Lean Zulip | Community publicity | Excluded | The existing user instruction excludes Zulip after the prior moderation event | Do not post | Closed |
 
 ## Update rule
