@@ -1,0 +1,27 @@
+{
+  "title": "Lean Schrodinger Derivation",
+  "description": "Lean 4 formalization of a thirteen-stage conditional nonrelativistic Schrodinger handoff. Starting from a native chi mass readout and an explicit free-Dirac mass-shell hypothesis, the release selects the positive-energy branch, removes rest energy, rationalizes the kinetic term, bounds the explicit relativistic correction, derives a local chi-dependent potential, and proves the textbook Schrodinger operator identity for a single Fourier plane-wave mode in natural units. It does not independently derive the mass shell from the lattice action, prove an arbitrary-wavefunction position-space PDE, Born's rule, or a complete quantum theory.",
+  "creators": [
+    {
+      "name": "Partin, G. D."
+    }
+  ],
+  "license": "cc0-1.0",
+  "upload_type": "software",
+  "keywords": [
+    "Lean 4",
+    "formalization",
+    "Schrodinger equation",
+    "nonrelativistic limit",
+    "relativistic correction",
+    "lattice field model"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/gpartin/LeanSchrodingerDerivation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+import SchrodingerFormal
+
+#print axioms SchrodingerFormal.schrodinger_stage01
+#print axioms SchrodingerFormal.schrodinger_stage02
+#print axioms SchrodingerFormal.schrodinger_stage03
+#print axioms SchrodingerFormal.schrodinger_stage04
+#print axioms SchrodingerFormal.schrodinger_stage05
+#print axioms SchrodingerFormal.schrodinger_stage06
+#print axioms SchrodingerFormal.schrodinger_stage07
+#print axioms SchrodingerFormal.schrodinger_stage08
+#print axioms SchrodingerFormal.schrodinger_stage09
+#print axioms SchrodingerFormal.schrodinger_stage10
+#print axioms SchrodingerFormal.schrodinger_stage11
+#print axioms SchrodingerFormal.schrodinger_stage12
+#print axioms SchrodingerFormal.schrodinger_stage13
+#print axioms SchrodingerFormal.schrodinger_stage13_chi_certificate
+#print axioms SchrodingerFormal.plane_wave_schrodinger_equation
+
