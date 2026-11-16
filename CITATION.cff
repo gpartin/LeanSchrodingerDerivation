@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this formal research artifact, please cite it using this metadata."
+title: "Lean Schrodinger Derivation"
+type: software
+authors:
+  - family-names: "Partin"
+    given-names: "G. D."
+version: "0.13.0-research"
+date-released: "2026-11-15"
+repository-code: "https://github.com/gpartin/LeanSchrodingerDerivation"
+license: CC0-1.0
+abstract: >-
+  A Lean 4 formalization of a thirteen-stage conditional nonrelativistic
+  Schrodinger handoff. It proves exact positive-energy, rest-energy removal,
+  rationalized kinetic-energy, correction-bound, chi-derived-potential, and
+  single-plane-wave operator identities. The free-Dirac mass shell remains an
+  explicit input; an arbitrary-wavefunction PDE, Born's rule, and a complete
+  quantum theory are outside the proved scope.
+

@@ -4,6 +4,8 @@ Public promotion of the staged c40 Lattice Field Medium Schrodinger program.
 
 ## Current release
 
+Version: `0.13.0-research`
+
 This release contains `SCHRODINGER-001`, the root-action and native-mass
 handoff, and `SCHRODINGER-002`, the explicit free-Dirac mass-shell handoff.
 It also contains `SCHRODINGER-003`, which selects the nonnegative energy
