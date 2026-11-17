@@ -81,3 +81,9 @@ The evidence-based external-submission ledger is maintained in
 [`docs/SUBMISSION_TRACKER.md`](docs/SUBMISSION_TRACKER.md). The tracker keeps
 source publication, immutable archiving, verification, curated listings, and
 community publicity separate and preserves incomplete or failed states.
+
+## License
+
+Project-authored content is available under [MIT](LICENSE) or
+[CC0-1.0](LICENSE-CC0), at the recipient's option. See
+[LICENSING.md](LICENSING.md) for scope and third-party terms.
